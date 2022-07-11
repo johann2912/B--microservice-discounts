@@ -45,14 +45,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-#Instrucciones
+## Instrucciones
 Este apartado se encuentra en español con fines de plasmar las ideas de manera clara. Cabe destacar que se hace muestra del .env y demas archivos ignorados con fines didacticos
 
-###Observamos la estructura base del proyecto:
+### Observamos la estructura base del proyecto:
+
 ![](./images-readme//estructura-base-proyecto.png)
 
 Procederemos a crear los archivos de ormconfig.json (el cual es necesario para poder ejecutar migraciones) y el archivo .env donde se encuentras nuestras variables de entorno.
 Antes de realizar la creacion de los archvios de debe tener instalado docker en tu computadora para poder hacer ejecucion del docker compose donde pondremos a correr nuestra base de datos. una vez tengamos realizado esto esto hacemos los siguiente; utilizamos una nueva consola y nos situamos en la raíz de nuestro proyecto una vez nos encontremos al nivel de docker compose.
+
 ![](./images-readme/consola-raiz-proyecto.png)
 
 procedemos a ejecutar el comando:
