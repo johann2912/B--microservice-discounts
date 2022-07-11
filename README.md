@@ -111,3 +111,6 @@ migration:run
 $ npm run migration:run
 ```
 cuando se ejecute el ultimo comando se creara en la raíz de nuestro proyecto una carpeta llamada migrations. **NOTA: antes de ejecutar una migracion creada debemos ingresa al archivo de la migracion y hacer un guardado de este en mi caso es ctrl + s**
+
+## swagger
+la documentacion de swagger la encontramos en la siguiente ruta -> http://localhost:4001/api/v1/discount/docs
