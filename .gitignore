@@ -5,6 +5,13 @@
 # ENVIROMENT
 .env
 
+# MIGRATION
+ormconfig.json
+migrations
+
+# Data persistant
+postgres_data
+
 # Logs
 logs
 *.log
