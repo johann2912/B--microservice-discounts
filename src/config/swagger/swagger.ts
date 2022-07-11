@@ -9,7 +9,7 @@ export class SwaggerConfig {
       .setDescription(`This service covers the creation and deletion of discount codes, 
         at the same time an additional functionality will be added to validate 
         if the discount code has expired or is still valid according to the date.`,)
-      .setVersion('v0.0.1')
+      .setVersion('v1.0.1')
       .build();
     const document = SwaggerModule.createDocument(app, config);
     SwaggerModule.setup('api/v1/discount/docs', app, document, {
