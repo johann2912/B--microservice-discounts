@@ -31,7 +31,6 @@ async function bootstrap() {
     }),
   );
   SwaggerConfig.ConfigSwaggerModule(app);
-  console.log(configService.get<number>('PORT'))
   await app.listen(configService.get<number>('PORT'));
 };
 bootstrap();
